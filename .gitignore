@@ -1,0 +1,14 @@
+# Ignore Drupal core
+core/
+
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore vendor directory
+/vendor
+/autoload.php
