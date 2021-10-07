@@ -9,6 +9,15 @@ sites/*/services*.yml
 sites/*/files
 sites/*/private
 
+# Ignore contrib modules, profiles, and themes
+modules/contrib/
+profiles/contrib/
+themes/contrib/
+
 # Ignore vendor directory
 /vendor
 /autoload.php
+
+# Ignore composer.lock
+# Comment out the following line
+composer.lock
