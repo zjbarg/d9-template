@@ -1,23 +1,28 @@
-# Ignore Drupal core
-core/
 
-# Ignore configuration files that may contain sensitive information.
-sites/*/settings*.php
-sites/*/services*.yml
+web/core/
+web/modules/contrib/
+web/profiles/contrib/
+web/sites/*/files/
+web/sites/*/private/
+web/sites/default/default.services.yml
+web/sites/default/default.settings.php
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+web/sites/development.services.yml
+web/sites/example.settings.local.php
+web/sites/example.sites.php
+web/themes/contrib/
+web/.csslintrc
+web/.eslintignore
+web/.eslintrc.json
+web/.ht.router.php
+web/.htaccess
+web/autoload.php
+web/index.php
+web/robots.txt
+web/update.php
+web/web.config
+vendor/
 
-# Ignore paths that contain user-generated content.
-sites/*/files
-sites/*/private
-
-# Ignore contrib modules, profiles, and themes
-modules/contrib/
-profiles/contrib/
-themes/contrib/
-
-# Ignore vendor directory
-/vendor
-/autoload.php
-
-# Ignore composer.lock
-# Comment out the following line
+# Ignore the following line
 composer.lock
